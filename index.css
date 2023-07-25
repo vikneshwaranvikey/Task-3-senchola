@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;1,100&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgb(116, 115, 115);
+  box-shadow: 0px 5px 8px rgb(71, 71, 71);
+}
+
+.navbar-brand {
+  margin-left: 80px;
+  color: white;
+}
+.nav-link {
+  margin-right: 80px;
+  color: white !important;
+  font-size: 20px;
+}
+.nav-link:hover {
+  color: black !important;
+}
+.btn-outline-dark {
+  margin-right: 50px;
+  color: white;
+  font-size: 20px;
+  border: solid;
+}
+section {
+  background-color: rgb(233, 227, 227) !important;
+  width: 100%;
+}
+.botms {
+  margin-bottom: 20px;
+}
+.AboutUs h1 {
+  padding: 40px;
+}
+.AboutUs img {
+  height: 250px;
+  width: 250px;
+}
+.AboutUs {
+  background-color: rgb(170, 169, 169);
+}
+.clor {
+  background-color: whitesmoke;
+}
+.tit {
+  padding-left: 40px;
+  padding-bottom: 40px;
+  background-color: antiquewhite;
+}
+.card {
+  border-radius: 30px;
+  box-shadow: 0px 5px 8px rgb(71, 71, 71);
+}
+.card:hover {
+  background-color: rgb(212, 211, 211);
+}
+.head-title {
+  padding: 40px;
+}
+.testM {
+  background-color: beige;
+}
+.testM p {
+  margin: 20px;
+  padding: 20px;
+}
+.testimonial h2 {
+  color: white;
+}
+.contactUs h1 {
+  text-align: center;
+  color: white;
+}
+.input-box {
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 420px;
+}
